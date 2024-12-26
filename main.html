@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anime Finder</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Anime Finder</h1>
+      <p>Search for your favorite anime and discover amazing titles!</p>
+    </header>
+    <div class="search-bar">
+      <input type="text" id="animeQuery" placeholder="Type an anime name..." />
+      <button onclick="displayAnime()">Search</button>
+    </div>
+    <div id="animeCards" class="cards-container">
+      <!-- Anime cards will be dynamically added here -->
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
